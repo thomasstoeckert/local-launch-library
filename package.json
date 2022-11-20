@@ -1,0 +1,49 @@
+{
+  "name": "local-launch-library",
+  "author": "Thomas Stoeckert",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+  },
+  "pebble": {
+    "displayName": "Perihelion",
+    "uuid": "5c87d940-7513-4c30-844f-8fb41c12e3dc",
+    "sdkVersion": "3",
+    "versionCode": 1,
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "_ready",
+      "i_request_all_launches",
+      "s_request_launch_details",
+      "s_return_launches_ids[10]",
+      "s_return_launches_names[10]",
+      "s_return_launches_times[10]",
+      "i_return_launch_error",
+      "i_push_pin",
+      "i_request_specific_launch_data",
+      "s_return_launch_bundle",
+      "s_return_launch_name",
+      "s_return_launch_status",
+      "s_return_launch_time[2]",
+      "s_return_launch_provider",
+      "s_return_launch_rocket",
+      "s_return_launch_mission_name",
+      "s_return_launch_mission_description",
+      "s_return_launch_pad_name",
+      "s_return_launch_pad_location"
+    ],
+    "resources": {
+      "media": [
+      ]
+    }
+  }
+}

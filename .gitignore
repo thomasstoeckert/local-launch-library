@@ -1,0 +1,9 @@
+/.lock-waf_linux2_build
+/.vscode
+/build
+/node_modules
+/package-lock.json
+/pebble_screenshot_2022-11-20_10-36-08.png
+/pebble_screenshot_2022-11-20_10-37-16.png
+/pebble_screenshot_2022-11-20_10-38-47.png
+/wscript
